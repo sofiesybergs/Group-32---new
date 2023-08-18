@@ -2,7 +2,7 @@
 
 # Welcome to our project in GitHub. 
 
-In this project we try to predict house pricing in Copenhagen, using the LASSO and RIDGE regression models. Our research question is: What impact do macroeconomics factors have on predicting apartment prices in Copenhagen?
+In this project we try to predict house prices in Copenhagen, using the LASSO and RIDGE regression models. Our research question is: What impact do macroeconomics factors have on predicting apartment prices in Copenhagen?
 
 ## The data
 We partly webscraped our data from Boliga.dk. We provide you with the code of the webscraping. This code is stored in the 'Web_scraping.ipynb' file. Please make sure to download Jupyter on your local computer (in combination with the Anaconda terminal). However, be aware that the practice of web scraping comes with ethical issues. If you want to run our code, please ask Boliga.dk for permission first. Also, always identify yourself.
