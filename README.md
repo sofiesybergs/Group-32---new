@@ -20,3 +20,9 @@ These are the most important files in our GitHub repository:
 - combined.csv is the data set uploading in the notebook
 - Web_scraping.ipynb is the code for the web scraping
 - CodeForML.ipynb is the code for the machine learning models
+
+# Any suggestions for further improvement
+Please contact us if you have any suggestions for further improvement. We're always happy to review suggestions and improving our code. We're aware of certain limitations of our model, as we didn't have unlimited time for this project (i.e., about three weeks). You could read our initial thought off limitations in the final project. Please commit your changes and we will try to review it. Kind regards, David (@dave010339), Katrine, and Sofie.
+
+# Last comments
+Nevertheless, we are happy that we've learned a **lot** during the course of this project. We all started with no to limited knowledge of Python, Jupyter, webscraping and machine learning in general. We've come such a far way and managed to deliver a quite complicated paper in just three weeks. We also want to thank the supporting staff of the Copenhagen University which made this project possible.
