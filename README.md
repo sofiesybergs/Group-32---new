@@ -21,6 +21,13 @@ These are the most important files in our GitHub repository:
 - Web_scraping.ipynb is the code for the web scraping
 - CodeForML.ipynb is the code for the machine learning models
 
+## Conclusion of our project
+Through machine learning, we optimized hyperparameters and weights to predict house prices. Initial models were trained on Boliga.dk's web-scraped data (rooms, kr/m2, m2, postal code) merged with macroeconomic factors (loan interest rate, inflation, salary, GDP). Data details, scraping, cleaning, and statistics were documented. Feature selection, influenced by correlations and literature, guided our choice of variables. Employing LASSO and RIDGE regression models with polynomial features, we aimed to capture data intricacies and balance bias-variance trade-offs using time-series cross-validation.
+
+Our findings highlighted a dominant LASSO regression model with two polynomial degrees as the strongest predictor of unseen data. The mean squared error, with an optimized λ of 1873.82, stood at 9,700,939,201.857. Despite this, evaluation of learning and validation curves raised concerns of overfitting. Subsequent research may explore increasing training data, refining hyperparameters, or alternative models to enhance generalization.
+
+In conclusion, the postal code emerged as the most influential feature for Copenhagen house price prediction, evidenced by the LASSO model attributing the highest weight (9446.227) to it. Acknowledging our research's limited feature scope, future research should consider additional variables to ascertain the model's broader generalization potential.
+
 # Any suggestions for further improvement
 Please contact us if you have any suggestions for further improvement. We're always happy to review suggestions and improving our code. We're aware of certain limitations of our model, as we didn't have unlimited time for this project (i.e., about three weeks). You could read our initial thought off limitations in the final project. Please commit your changes and we will try to review it. Kind regards, David (@dave010339), Katrine, and Sofie.
 
