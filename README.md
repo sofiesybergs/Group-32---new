@@ -11,7 +11,7 @@ We partly webscraped our data from Boliga.dk. We provide you with the code of th
 In order to help you understand this project, we will briefly explain how our project works. Follow the following steps to get up and running:
 1) Download the output.csv file and store it on your local computer. Remember the URL, as you will need it later on.
 2) Open the CodeForML_final.ipynb file.
-3) Follow the steps in the CodeForML_final.ipynb file.
+3) Follow the steps in the CodeForML_final_2.ipynb file.
 
 ## Overview of the files
 These are the most important files in our GitHub repository:
@@ -19,7 +19,7 @@ These are the most important files in our GitHub repository:
 - output.csv is the cleaned data set 
 - combined.csv is the data set uploading in the notebook
 - Web_scraping.ipynb is the code for the web scraping
-- CodeForML_final.ipynb is the code for the machine learning models
+- CodeForML_final_2.ipynb is the code for the machine learning models
 
 ## Conclusion of our project
 Through machine learning, we optimized hyperparameters and weights to predict house prices. Initial models were trained on Boliga.dk's web-scraped data (rooms, kr/m2, m2, postal code) merged with macroeconomic factors (loan interest rate, inflation, salary, GDP). Data details, scraping, cleaning, and statistics were documented. Feature selection, influenced by correlations and literature, guided our choice of variables. Employing LASSO and RIDGE regression models with polynomial features, we aimed to capture data intricacies and balance bias-variance trade-offs using time-series cross-validation.
