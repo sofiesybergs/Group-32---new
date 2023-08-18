@@ -11,7 +11,7 @@ We partly webscraped our data from Boliga.dk. We provide you with the code of th
 In order to help you understand this project, we will briefly explain how our project works. Follow the following steps to get up and running:
 1) Download the output.csv file and store it on your local computer. Remember the URL, as you will need it later on.
 2) Open the CodeForML_final.ipynb file.
-3) Follow the steps in the CodeForML.ipynb file.
+3) Follow the steps in the CodeForML_final.ipynb file.
 
 ## Overview of the files
 These are the most important files in our GitHub repository:
